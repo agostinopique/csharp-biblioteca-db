@@ -1,0 +1,37 @@
+﻿--CREATE TABLE [dbo].[documents] (
+--    [id]         BIGINT        IDENTITY (1, 1) NOT NULL,
+--    [code]       VARCHAR (255) NOT NULL,
+--    [title]      VARCHAR (255) NOT NULL,
+--    [year]       INT           NOT NULL,
+--    [sector]     VARCHAR (50)  NOT NULL,
+--    [available]  TINYINT       NOT NULL,
+--    [position]   VARCHAR (5)   NOT NULL,
+--    [author]     VARCHAR (100) NOT NULL,
+--    [type] VARCHAR (50) NOT NULL,
+--    [time] INT NULL,
+--    [total_pages] INT NULL,
+--    [created_at] DATETIME      DEFAULT (NULL) NULL,
+--    [updated_at] DATETIME      DEFAULT (NULL) NULL,
+--    PRIMARY KEY CLUSTERED ([id] ASC)
+--);
+
+--CREATE TABLE [dbo].[users] (
+--    [id]         BIGINT        IDENTITY (1, 1) NOT NULL,
+--    [name]       VARCHAR (255) NOT NULL,
+--    [lastname]   VARCHAR (255) NOT NULL,
+--    [email]      VARCHAR (255) NOT NULL,
+--    [password]     VARCHAR (255)  NOT NULL,
+--    [phonenumber]  INT       NOT NULL,
+--    [created_at] DATETIME      DEFAULT (NULL) NULL,
+--    [updated_at] DATETIME      DEFAULT (NULL) NULL,
+--    PRIMARY KEY CLUSTERED ([id] ASC)
+--);
+
+--CREATE TABLE [dbo].[loans] (
+--	[id] BIGINT IDENTITY(1, 1) NOT NULL,
+--	[user_id]
+--	[document_id]
+--	[created_at] DATETIME      DEFAULT (NULL) NULL,
+--    [updated_at] DATETIME      DEFAULT (NULL) NULL,
+--	CONSTRAINT [PK_] PRIMARY KEY CLUSTERED 
+--);
